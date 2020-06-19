@@ -2,9 +2,9 @@ cmake_minimum_required( VERSION 3.10.2 )
 project(iol_parallel_image_to_video_converter)
 
 # set the compiler flags and c++ version
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 -I")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -O3 -I")
 #set(MAKE_LINK_DEF_FILE_FLAG "${MAKE_LINK_DEF_FILE_FLAG} -lpthread")
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 # Search path for CMake include files.
 #set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
